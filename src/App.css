@@ -1,4 +1,4 @@
-.home{
+.home {
   padding: 40px;
   height: calc(100vh - 80px);
   display: flex;
@@ -6,7 +6,7 @@
   justify-content: space-between;
 }
 
-.auctionContainer{
+.auctionContainer {
   border-radius: 10px;
   padding: 10px;
   border: 1px solid rgb(114, 119, 127);
@@ -16,28 +16,45 @@
   gap: 20px;
 }
 
-.playerDetailsContainer{
+.playerDetailsContainer {
   display: flex;
   gap: 10px;
   flex: 1;
 }
 
-.playerDetailsContainer>img{
-  height: 250px;
+.playerDetailsContainer > img {
+  height: 200px;
   border-radius: 10px;
   aspect-ratio: 1;
 }
 
-.detailsContainer{
+.detailsContainer {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  font-weight: 600;
 }
 
-.bidsContainer{
-  flex: 2;
+.skillsContainer {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
 }
 
-.infoContainer{
+.skillChip {
+  padding: 10px;
+  background: rgb(216, 228, 245);
+  border-radius: 10px;
+}
+
+.bidsContainer {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  gap: 10px;
+}
+
+.infoContainer {
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -45,16 +62,32 @@
   justify-content: space-between;
 }
 
-.walletContainer{
+.walletContainer {
   border-radius: 10px;
   flex: 1;
   padding: 10px;
   border: 1px solid rgb(114, 119, 127);
 }
 
-.soldPlayersContainer{
+.teamBudgetContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.teamBudget {
+  flex: 40%;
+}
+
+.soldPlayersContainer {
   border-radius: 10px;
   flex: 3;
   padding: 10px;
   border: 1px solid rgb(114, 119, 127);
+}
+
+.playersList {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
 }
