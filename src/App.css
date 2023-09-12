@@ -73,6 +73,8 @@
   display: flex;
   flex-wrap: wrap;
   margin-top: 10px;
+  align-items: center;
+  height: 80%;
 }
 
 .teamBudget {
@@ -84,10 +86,13 @@
   flex: 3;
   padding: 10px;
   border: 1px solid rgb(114, 119, 127);
+  height: 66%;
 }
 
 .playersList {
   display: flex;
   flex-direction: column;
   margin-top: 10px;
+  max-height: 90%;
+  overflow: auto;
 }
